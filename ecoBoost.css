@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fontHeaders{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+.fontTexts{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+} 
+#Header{
+    background: linear-gradient(to right, #3b5704, #81b622);
+    margin-bottom: 24px;
+}
+#textLogoHome{
+    color: white;
+    text-align: center;
+}
+#tableBoardest{
+    border-radius: 13px;
+    background-color:#81b622 ;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding-bottom: relative;
+    /* padding-left: 24px; */
+}
+#tableUsers{
+    border-collapse:separate;
+    border-spacing: 0 10px;
+}
+th, td{
+    padding: 10px 30px;
+}
+#titleTopEcoUsers{
+    color:#3b5704;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+#titleTopEcoins{
+    color:#3b5704;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#titleTopDescuentos{
+    color:#3b5704;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#titleTopProductos{
+    color:#3b5704;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#topUno{
+    text-align: center;
+    color: white;
+}
+#topDos{
+    text-align: center;
+    color: white;
+}
+#topTres{
+    text-align: center;
+    color: white;
+}
+body {
+    background-color: rgb(255, 255, 255)
+}

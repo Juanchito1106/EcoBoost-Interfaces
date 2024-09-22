@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(-90deg, #3B5704 0%, #9EEF42 100%);
+}
+
+.Logo_create{
+
+    width: 500px;
+    position: absolute;
+    top: 70px;
+    left: 370px;
+}
+
+
+
+#mascota_create{
+
+    width: 170px;
+    position: absolute;
+    top: 220px;
+    left: 790px;     
+}
+
+.name{
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    
+}
+.name input{
+    width: 170px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    padding: 10px; /* Espaciado interno para que el texto no toque los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes del input */
+
+    color: #000000; /* Cambia el color del texto */
+    font-size: 20px;
+
+}
+
+.name input::placeholder {
+    color: #9FB27A; /* Color del texto del placeholder */
+}
+
+
+.last_name{
+    position: absolute;
+    top: 250px;
+    left: 630px;
+    
+}
+.last_name input{
+    width: 170px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    padding: 10px; /* Espaciado interno para que el texto no toque los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes del input */
+
+    color: #000000; /* Cambia el color del texto */
+    font-size: 20px;
+
+}
+
+.last_name input::placeholder {
+    color: #9FB27A; /* Color del texto del placeholder */
+}
+
+
+
+.correo_input{
+    position: absolute;
+    top: 320px;
+    left: 420px;
+    
+}
+
+.correo_input input{
+    width: 380px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    padding: 10px; /* Espaciado interno para que el texto no toque los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes del input */
+
+    color: #000000; /* Cambia el color del texto */
+    font-size: 20px;
+
+}
+
+.correo_input input::placeholder {
+    color: #9FB27A; /* Color del texto del placeholder */
+}
+
+.pass{
+    position: absolute;
+    top: 390px;
+    left: 420px;
+    
+}
+
+.pass input{
+    width: 380px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    padding: 10px; /* Espaciado interno para que el texto no toque los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes del input */
+
+    color: #000000; /* Cambia el color del texto */
+    font-size: 20px;
+
+}
+
+.pass input::placeholder {
+    color: #9FB27A; /* Color del texto del placeholder */
+}
+
+.btn_create{
+
+    position: absolute;
+    top: 460px;
+    left: 420px;
+
+    background-color: #80F43A;
+    border-radius: 50px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+
+    width: 400px;  /* Ancho del botón */
+    height: 60px; /* Alto del botón */
+}
+
+/* Cambia el color de fondo a blanco cuando se hace clic */
+.btn_create:active {
+    background-color: #fff; /* Color blanco al hacer clic */
+    color: #000000;
+}
+
+.inica_sesion{
+
+    position: absolute;
+    top: 530px;
+    left: 495px;
+    color: white;
+}

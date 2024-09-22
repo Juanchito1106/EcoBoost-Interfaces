@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(90deg, #3B5704 0%, #9EEF42 100%);
+}
+
+.Logo{
+
+    width: 500px;
+    position: absolute;
+    top: 70px;
+    left: 370px;
+}
+
+
+#mascotica{
+
+    width: 130px;
+    position: absolute;
+    top: 250px;
+    left: 170px;     
+}
+
+.correo_input{
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    
+}
+.correo_input input{
+    width: 380px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    padding: 10px; /* Espaciado interno para que el texto no toque los bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Bordes del input */
+
+    color: #000000; /* Cambia el color del texto */
+    font-size: 20px;
+
+}
+
+.correo_input input::placeholder {
+    color: #9FB27A; /* Color del texto del placeholder */
+}
+
+
+.password_input{
+
+    position: absolute;
+    top: 330px;
+    left: 420px;
+    
+}
+
+.password_input input{
+
+    width: 380px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    padding: 10px; /* Espaciado interno para que el texto no toque los bordes */
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+
+    color: #000000; /* Cambia el color del texto */
+    font-size: 20px;
+    
+}
+
+.password_input input::placeholder {
+    color: #9FB27A; /* Color del texto del placeholder */
+}
+
+
+
+.btn_inicio{
+
+    position: absolute;
+    top: 405px;
+    left: 420px;
+
+    background-color: #80F43A;
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+
+    width: 400px;  /* Ancho del botón */
+    height: 60px; /* Alto del botón */
+}
+
+/* Cambia el color de fondo a blanco cuando se hace clic */
+.btn_inicio:active {
+    background-color: #fff; /* Color blanco al hacer clic */
+    color: #000000;
+
+}
+
+
+.crear_cuenta{
+
+    position: absolute;
+    top: 480px;
+    left: 495px;
+    color: white;
+
+}
+
+.forgot{
+    position: absolute;
+    top: 505px;
+    left: 530px;
+}
